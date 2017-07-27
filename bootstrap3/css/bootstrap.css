@@ -239,7 +239,7 @@ th {
     page-break-after: avoid;
   }
   .navbar {
-    display: none;
+	display: none;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -1291,14 +1291,14 @@ p {
   margin: 0 0 10px;
 }
 .lead {
-  margin-bottom: 20px;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.4;
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+	font-size: 15px;
   }
 }
 small,
@@ -1597,6 +1597,24 @@ pre code {
   .container {
     width: 970px;
   }
+.lead {
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.4;
+	text-align: center;
+}
+	.divfloatright {
+	float: right;
+	width: 37%;
+	margin-right: 72px;
+}
+
+.divfloatleft {
+	float: left;
+	width: 37%;
+	margin-left: 72px;
+}
 }
 @media (min-width: 1200px) {
   .container {
@@ -2995,6 +3013,13 @@ select[multiple].input-lg {
     padding-top: 11px;
     font-size: 18px;
   }
+.lead {
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.4;
+	text-align: center;
+}
 }
 @media (min-width: 768px) {
   .form-horizontal .form-group-sm .control-label {
@@ -3975,9 +4000,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
 }
 .nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	margin-left: 58px;
 }
 .nav > li {
   position: relative;
@@ -4026,10 +4052,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: -1px;
 }
 .nav-tabs > li > a {
-  margin-right: 2px;
-  line-height: 1.42857143;
-  border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
+	margin-right: 2px;
+	line-height: 1.42857143;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a:hover {
   border-color: #eee #eee #ddd;
@@ -4202,10 +4228,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
             box-shadow: none;
   }
   .navbar-collapse.collapse {
-    display: block !important;
-    height: auto !important;
-    padding-bottom: 0;
-    overflow: visible !important;
+	display: block !important;
+	height: auto !important;
+	padding-bottom: 0;
+	overflow: visible !important;
   }
   .navbar-collapse.in {
     overflow-y: visible;
@@ -4213,8 +4239,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-fixed-top .navbar-collapse,
   .navbar-static-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
-    padding-right: 0;
-    padding-left: 0;
+	padding-right: 0;
   }
 }
 .navbar-fixed-top .navbar-collapse,
@@ -4254,10 +4279,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
 }
 @media (min-width: 768px) {
   .navbar-fixed-top,
@@ -4324,12 +4349,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 7.5px -15px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 7.5px;
+	margin-left: 88px;
 }
 .navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 20px;
+	padding-left: 10px;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -4356,8 +4385,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
-    margin: 0;
+	float: left;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 132px;
+	margin-bottom: 0;
   }
   .navbar-nav > li {
     float: left;
@@ -4488,8 +4520,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left !important;
   }
   .navbar-right {
-    float: right !important;
-    margin-right: -15px;
+	float: right !important;
+	margin-left: 79px;
+	display: inline;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -6758,3 +6791,6 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.featurette-heading {
+	font-size: 205%;
+}
