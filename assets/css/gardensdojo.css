@@ -15,7 +15,7 @@
 }
 .navbar-brand .gardensdojo-brand span { font-weight: 400; }
 
-.navbar-ct-gardensdojo .navbar-nav {margin-top:-10px;}
+.navbar-ct-gardensdojo .navbar-nav {margin-top:10px;}
 .navbar-ct-gardensdojo .navbar-social {margin-top:-13px;}
 
 /* Content */
@@ -55,7 +55,18 @@
 .section-hellolabs {background-color:#4a90e2; color:white}
 .section-hellolabs a {color: #ccc}
 .section-hellolabs a:hover {color: #fff}
-.section-hellolabs .featurette-image {width:50%}
+.section-hellolabs .featurette-image {
+	width: 50%;
+	margin-bottom: 39px;
+}
+
+.sponsor-image {
+	width: 45%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .more-to-see {display:none}
 .see-more-link {font-size:90%; padding-left:15px}
 
@@ -74,3 +85,30 @@
 .footer-dojo nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus { color: #E3E3E3; }
 .footer-dojo .copyright { color: #777777; padding: 10px 15px; font-size: 14px; margin: 15px 3px; line-height: 20px; text-align: center; }
 .footer-dojo .heart{ color: #EB5E28; }
+#sponsors {
+	color: #FFFFFF;
+	text-align: left;
+	float: left;
+	clear: both;
+}
+.newlogo {
+	width: 38%;
+	margin-right: -1px;
+}
+
+@media (min-width:1024px){
+.newlogo {
+	width: 70%;
+}
+}
+
+@media (min-width:768px){
+.newlogo {
+	width: 70%;
+}
+.section-hellolabs .featurette-image {
+	width: 40%;
+	margin-bottom: 39px;
+	margin-top: 18px;
+}
+}
